@@ -5,6 +5,7 @@
 
 ## Funcionalidades Implementadas
 
+* Nesse projeto foi utilizado HTML, CSS e JavaScript puro
 * Documentação baseada nos princípios do meu livro favorito de desenvolvimento, Código Limpo
 * Exibição de uma lista dos primeiros 151 Pokémon ( primeira geração ) da PokeAPI.
 * Campo de busca para filtrar a lista de Pokémon por nome.
