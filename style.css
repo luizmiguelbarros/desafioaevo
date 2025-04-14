@@ -1,0 +1,126 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    background-image: url("images/581224.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+} 
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    font-family: monospace;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#search-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    width: 350px;
+    height: 40px;
+}
+
+#search-button {
+    padding: 8px 15px;
+    background-color: #a71919;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+#pokemon-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Cria um layout de grid responsivo */
+    gap: 20px; /* Espaçamento entre os cards */
+    margin-top: 20px;
+}
+
+.pokemon-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    min-width: 120px;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out; /* Adiciona uma pequena animação ao passar o mouse */
+}
+
+.pokemon-card:hover {
+    transform: scale(1.05); /* Amplia levemente o card ao passar o mouse */
+}
+
+.pokemon-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.pokemon-card h3 {
+    margin-top: 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.pokemon-item {
+    background-color: rgb(189, 115, 115);
+    color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px #2b2b2b;
+    opacity: 90%;
+}
+
+.pokemon-item:hover {
+    background-color: #5a0404;
+    color: #ffd8d8;
+    opacity: 70%;
+}
+
+#pokemon-details, #comparison {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+}
+
+.hidden {
+    display: none;
+}
+
+#details-content, #comparison-content {
+    margin-bottom: 15px;
+}
+
+#details-content img {
+    width: 200px; /* Escolhi deixar um pouco maior as imagens */
+    height: auto;
+}
+
+#close-details, #close-comparison {
+    padding: 8px 15px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

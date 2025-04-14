@@ -1,0 +1,20 @@
+* `index.html`: A estrutura principal da página web.
+* `style.css`: Os estilos visuais da página.
+* `script.js`: A lógica JavaScript para interagir com a PokeAPI e manipular o DOM.
+* `README.md`: Este arquivo com documentação sobre o projeto.
+
+## Funcionalidades Implementadas
+
+* Documentação baseada nos princípios do meu livro favorito de desenvolvimento, Código Limpo
+* Exibição de uma lista dos primeiros 151 Pokémon ( primeira geração ) da PokeAPI.
+* Campo de busca para filtrar a lista de Pokémon por nome.
+* Ao clicar em um Pokémon da lista, exibe detalhes como nome, imagem, ID, altura, peso, tipos e a soma dos seus status.
+* Funcionalidade básica para selecionar até dois Pokémon e comparar a soma de seus status e dizer quem é mais forte.
+
+## Observações
+
+* Gostaria de ter feito em Angular mas como eu não tenho tanto domínio assim, preferi fazer no JS puro mesmo
+* Este projeto utiliza JavaScript puro para realizar as requisições à API e manipular o DOM.
+* Está havendo um problema que o Live Server não está funcionando, é preciso abrir o index.html diretamente da pasta! 
+
+Sinta-se à vontade para explorar o código e adicionar melhorias!

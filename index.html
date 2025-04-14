@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POKEDEX</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>PokeDex</h1>
+
+    <div class="search-container">
+        <input type="text" id="search-input" placeholder="Buscar Pokémon...">
+        <button id="search-button">Buscar</button>
+    </div>
+
+    <div id="pokemon-list">
+        </div>
+
+    <div id="pokemon-details" class="hidden">
+        <h2>Detalhes do Pokémon</h2>
+        <div id="details-content">
+            </div>
+        <button id="close-details">Fechar</button>
+    </div>
+
+    <div id="comparison" class="hidden">
+        <h2>Comparação de Pokémon</h2>
+        <div id="comparison-content">
+            </div>
+        <button id="close-comparison">Fechar</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
